@@ -3,7 +3,7 @@ Just mon *****
 
 ### exécuter l'app
 
-- install http-server
+- installer http-server
   * npm install http-server -g
 - Démarrer le serveur
   * http-server/[chemin]/app
