@@ -1,0 +1,127 @@
+html, body, .VH, .CVD1{
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.CVDB1{
+    background-color: #763a3d;
+     
+}
+.CVDB1 .content1{
+    background-color: #763a3d!important;
+    color: #fafafa!important;
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+.foto{
+    background-image: url('../src/Rectangle-8.png');
+    background-size: cover;
+}
+.nom{
+    font-weight: 600;
+    font-size: 24px;
+    color: #fafafa;
+}
+.titre{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fafafa;
+}
+.PR1 md-divider{
+    height: 3px;
+    background-color: #b0b089;
+}
+.PR1 span{
+    padding: 8px;
+    font-weight: 500;
+}
+.profil{
+    margin-bottom: 16px;
+    padding-left: 16px;
+    margin-top: 16px;
+}
+.PDD{
+    padding-left: 8px;
+}
+.PDD h4,.PDD h3,.PDD p{
+    color: #fafafa!important;
+    
+}
+.PID{
+    margin-top: 24px;
+}
+
+
+
+
+
+
+.B2{
+    background-color: #b0b089;
+    
+}
+.B2 .content2{
+    background-color: #b0b089!important;
+    color: #000000!important;
+    height: 100%;
+    overflow-y: auto;
+     
+}
+.PR2 md-divider{
+    height: 3px;
+    background-color: #763a3d;
+}
+.PR2 span{
+    padding: 8px;
+    font-weight: 500;
+}
+.P0D{
+    padding-left: 8px;
+}
+.B2 md-list{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .CVDB1 .content1 {
+        height: auto;
+        overflow-y: hidden;
+    }
+    .B2 .content2 {
+        height: auto;
+        overflow-y: hidden;
+    }
+}
+.DVD{
+    background: rgba(0,0,0,0.87);
+    
+}
+.DVD, .DVDO{
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 3px;
+    
+}
+.DVDO{
+    background-color: rgba(0,0,0,0.34);
+}
+.loisir H3{
+    margin: 0px!important;
+    font-weight: 400!important;
+    font-size: 16px!important;
+    color: rgba(0,0,0,0.87)!important;
+}
+.loisir span{
+    color: rgba(0,0,0,0.54)!important;
+}
+.btn{
+    position: absolute;
+    right: 16px;
+}
+.btn i{
+    margin-top: 6px;
+}
+
+

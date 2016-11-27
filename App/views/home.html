@@ -1,0 +1,125 @@
+ <div layout="row" layout-xs="column" flex flex-gt-sm="70" class="CVD1">
+     <div flex="" layout-gt-xs="row">
+         <div layout="column"  flex-gt-sm="35" flex-sm="45" class="CVDB1">
+             <div layout="column" class="content1">
+                 <div  class="foto" layout="column" layout-align="center start" layout-align-gt-xs="end center" layout-padding="" flex="50">
+                     <span class="nom">
+                         KWENI Thierry A.
+                     </span>
+                     <span class="titre">
+                         Annalyste - Programmeur
+                     </span>
+                 </div>
+                 <div flex="">
+                     <div class="profil"   layout="column">
+                    <div class="PR1" layout="row" layout-align="start center ">
+                        <img src="src/Groupe-1.png" alt="">
+                        <span>PROFIL</span>
+                        <md-divider flex></md-divider>
+                    </div>
+                    <md-list>
+                        <md-list-item  layout="row"  ng-repeat="item in ctr.profil">                      
+                          <div ><i class="material-icons">{{ item.img }}</i></div>
+                          <span layout-padding="">{{ item.desc }}</span>
+                        </md-list-item>
+                    </md-list>                 
+                 </div>
+                 <div class="profil"   layout="column">
+                    <div class="PR1" layout="row" layout-align="start center ">
+                        <img src="src/Groupe-11.png" alt="">
+                        <span>FORMATIONS</span>
+                        <md-divider flex></md-divider>
+                    </div>
+                    <md-list>
+                        <md-list-item class="md-3-line"  ng-repeat="item in ctr.formation" >
+                          <i class="material-icons PID">keyboard_arrow_right</i>
+                          <div class="md-list-item-text PDD"  layout="column">
+                            <h3>{{ item.nom }} | {{ item.date }}</h3>
+                            <h4>{{ item.ecole }}</h4>
+                            <p>{{ item.option }}</p>
+                          </div>
+                        </md-list-item>
+                    </md-list>                 
+                 </div>
+                 </div>
+             </div>
+         </div>
+        <div layout="column" flex-gt-xs class="B2" >
+             <div layout="column"  class="content2">
+                 <div flax="">
+                     <div class="profil"   layout="column">
+                    <div class="PR2" layout="row" layout-align="start center ">
+                        <img src="src/Groupe-15.png" alt="">
+                        <span>EXPERIENCES</span>
+                        <md-divider flex></md-divider>
+                    </div>
+                    <md-list>
+                        <md-list-item class="md-2-line"  ng-repeat="item in ctr.experience" >
+                          <i class="material-icons PID">keyboard_arrow_right</i>
+                          <div class="md-list-item-text P0D"  layout="column">
+                            <h3>{{ item.role }} | {{ item.entreprise }} </h3> 
+
+                            <p>{{ item.date }}</p>
+                          </div>
+                        </md-list-item>
+                    </md-list>                 
+                 </div>
+                 <div class="profil"   layout="column">
+                    <div class="PR2" layout="row" layout-align="start center ">
+                        <img src="src/Groupe-13.png" alt="">
+                        <span>COMPETENCES</span>
+                        <md-divider flex></md-divider>
+                    </div>
+                    <md-list>
+                        <md-list-item class="md-2-line"  ng-repeat="item in ctr.competence" >
+                          <i class="material-icons PID">keyboard_arrow_right</i>
+                          <div class="md-list-item-text P0D"  layout="column">
+                            <h3>{{ item.nom }} </h3>                         
+                            <p>{{ item.valeur }}</p>
+                          </div>
+                        </md-list-item>
+                    </md-list>                 
+                 </div>
+                 <div class="profil"   layout="column">
+                    <div class="PR2" layout="row" layout-align="start center ">
+                        <img src="src/Groupe-16.png" alt="">
+                        <span>AUTRES</span>
+                        <md-divider flex></md-divider>
+                    </div>
+                    <div layout-padding="" class="loisir">
+                        <div layout="row">
+                            <div><i class="material-icons ">keyboard_arrow_right</i></div>
+                            <div flex class=" P0D"  layout="column">
+                                <h3>LANGUES </h3>
+                                <div   layout="row" layout-align="start center ">
+                                   <span flex>Français</span>
+                                   <md-divider flex class="DVD"></md-divider>
+                                   <md-divider flex class="DVD"></md-divider>
+                                   <md-divider flex class="DVDO"></md-divider>
+                                </div>                                             
+                                <div   layout="row" layout-align="start center ">
+                                   <span flex>Anglais</span>
+                                   <md-divider flex class="DVD"></md-divider>
+                                   <md-divider flex class="DVDO"></md-divider>
+                                   <md-divider flex class="DVDO"></md-divider>
+                                </div>
+                            </div>                              
+                     </div>
+                     <div layout="row">
+                          <div><i class="material-icons ">keyboard_arrow_right</i></div>
+                          <div flex class="md-list-item-text P0D"  layout="column">
+                            <h3>LOISIRS </h3>                         
+                            <span>Sport - Jeux videos - Balades</span>
+                          </div>
+                    </div> 
+                </div>
+
+                 </div>
+             </div>
+         </div>
+         </div>
+     </div>
+ <md-button  ng-href="src/Kweni_thierry.pdf"  class="md-fab md-mini btn" aria-label="Eat cake">
+    <i class="material-icons">print</i>
+</md-button>
+</div>
