@@ -1,5 +1,5 @@
 # Alfredcv
-Just mon cv sous forme de blog
+Just mon *****
 
 ### exécuter l'app
 
