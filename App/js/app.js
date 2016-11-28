@@ -3,6 +3,11 @@ app = angular
     .config(function ($routeProvider) {
     $routeProvider       
     .when('/', {
+        templateUrl: 'views/page.html',
+        controller: 'PageController',
+        controllerAs: 'ctr'
+      })
+        .when('/old', {
         templateUrl: 'views/home.html',
         controller: 'HomeController',
         controllerAs: 'ctr'
